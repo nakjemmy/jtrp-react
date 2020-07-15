@@ -15,7 +15,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build && mv build/* /c/xampp/htdocs/wpradioplugintest/wp-content/plugins/jtrp-wp/widget",
+    "build": "react-scripts build && cp -rf build/* /c/xampp/htdocs/wpradioplugintest/wp-content/plugins/jtrp-wp/widget",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
